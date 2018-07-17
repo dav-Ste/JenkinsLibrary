@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-package DS.Git
+package ds
 
 def IsDevBranch()
 {
