@@ -1,16 +1,6 @@
 #!/usr/bin/groovy
+package ds;
 
-package ds
-
-def IsDevBranch()
-{
-	env.BRANCH_NAME == 'dev'
-}
-
-def IsTestBranch() {
-	env.BRANCH_NAME == 'test'
-}
-
-def IsLiveBranch() {
-	env.BRANCH_NAME == 'master'
+def isDevelopBranch() {
+    env.BRANCH_NAME == 'develop'
 }
