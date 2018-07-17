@@ -1,4 +1,4 @@
-#!/usr/bin/groovy
+
 package ds;
 
 def isDevelopBranch() {
